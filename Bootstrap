@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Storefront</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body class="bg-light">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Store</a>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container my-4">
+
+    <!-- Search Bar -->
+    <div class="input-group mb-4">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search for products..."
+        id="searchBox"
+      />
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+    </div>
+
+    <!-- Product List -->
+    <div class="row" id="product-list">
+      <!-- JavaScript will populate cards here -->
+    </div>
+
+    <!-- Cart Section -->
+    <h4 class="mt-5">Shopping Cart</h4>
+    <ul class="list-group" id="cart">
+      <!-- Cart items appended here -->
+    </ul>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Your JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
+
